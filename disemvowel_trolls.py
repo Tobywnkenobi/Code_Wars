@@ -4,7 +4,7 @@
 
 # These are the test sentences:
 
-input = "This website is for losers LOL!"
+input = str("This website is for losers LOL!")
 
 # No offense but,\nYour writing is among the worst I've ever read
 # "What are you, a communist?
@@ -13,8 +13,8 @@ vowels = ("a", "e", "i", "o", "u", "A", "E", "I", "O", "U")
 
 def disemvowel(string_):
     for t in input:
-        if t != vowels():
-            print(string_)
+        if t != vowels(0, 9):
+            print()
         else: pass
             
     # return string_
