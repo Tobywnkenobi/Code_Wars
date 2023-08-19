@@ -11,10 +11,12 @@ input = str("This website is for losers LOL!")
 #        0    1    2    3    4
 vowels = ("a", "e", "i", "o", "u", "A", "E", "I", "O", "U")
 
-def disemvowel(string_):
-    for t in input:
+def disemvowel string_:
+for t in input:
         if t != vowels(0, 9):
-            print()
+            print(str(string_))
         else: pass
-            
-    # return string_
+    
+return string_
+
+
